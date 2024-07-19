@@ -1,32 +1,34 @@
 #-------------------------------
 # General Site Settings
-title: RazorSPoint
+title: The AI And Science Podcast
 logo: # You can add own logo. For example '/images/logo.png'.
-description: Norlin – A Beautiful Dark Blog Theme for Jekyll.
-baseurl: "" # The subpath of your site, e.g. /blog
-url: "" # The base hostname & protocol for your site, e.g. http://example.com
+description: Explore the fascinating world of AI and its impact on Science with Dr. Aous A. Abdo
 
+baseurl: "/ai-and-science-podcast"
+url: "https://aousabdo.github.io"
+twitter_username: aousabdo
+github_username:  aousabdo
 
 #-------------------------------
 # Author Settings
 author:
-  name: Sebastian Schütze
-  avatar: '/images/15.jpg'
+  name: Dr. Aous A. Abdo
+  avatar: '/images/author-profile-square.png'
 
 
 #-------------------------------
 # Hero Settings
 hero:
-  title: RazorSPoint
-  description: DevOps, Azure and ideas.
-  image: '/images/01.jpg'
+  title: The AI And Science Podcast
+  description: Explore the fascinating world of AI and its impact on Science with Dr. Aous A. Abdo
+  image: '/images/podcast-cover-transparency-adjusted.jpeg'
 
 
 #-------------------------------
 # Contact Settings
 contact:
-  email: sebastian.schuetze@razorspoint.com # Add your email for contact form
-  description: Norlin comes with a built-in contact form, that you can use with Formspree service to handle up to 50 submissions per month for free. You could also easily switch to another contact form service if you want. # Add a description of your form
+  email: aousabdo@gmail.com # Add your email for contact form
+  description: Have questions about AI and/or Science? Want to suggest a topic for the next episode? Use this contact form to get in touch with Dr. Aous Abdo. I'd love to hear from you and explore new ideas for future episodes!
 
 # NOTE
 # Norlin theme comes with a contact form built-in. You can use this form with Formspree (https://formspree.io/) service and get up to 50 submissions for free. Also, you can easily switch to another service if you want.
@@ -37,15 +39,15 @@ contact:
 # Example of adding a new link to the footer - {icon: "ion-logo-github", link: "https://github.com"}
 # Other icons can be found at https://ionicons.com/v4/
 social:
-- {icon: "ion-logo-twitter", link: "https://twitter.com/RazorSPoint"}
-- {icon: "ion-logo-youtube", link: "https://www.youtube.com/channel/UCzQ2vDjfscqSpXvSHhejJMg"}
-- {icon: "ion-logo-github", link: "https://github.com/SebastianSchuetze"}
-- {icon: "ion-logo-linkedin", link: "https://www.linkedin.com/in/sebastianschuetze"}
+- {icon: "ion-logo-twitter", link: "https://twitter.com/aousabdo"}
+- {icon: "ion-logo-youtube", link: "https://www.youtube.com/@aousabdo7266"}
+- {icon: "ion-logo-github", link: "https://github.com/aousabdo"}
+- {icon: "ion-logo-linkedin", link: "https://www.linkedin.com/in/aous-a-abdo-84357b303/"}
 
 
 #-------------------------------
 # Comment Section (Disqus)
-disqus-identifier: anvodstudio-demo # Add your shortname for Disqus Comment. For example anvodstudio-demo
+disqus-identifier: aousabdo-github-io # Add your shortname for Disqus Comment. For example anvodstudio-demo
 
 
 #-------------------------------

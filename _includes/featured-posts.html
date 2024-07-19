@@ -32,11 +32,15 @@
 
                   <div class="article__meta">
                     <span class="article__minutes">
-                      {% assign words = post.content | number_of_words %}
-                      {% if words < 360 %}
-                        1 min read
+                      {% if post.duration %}
+                        {{ post.duration }}
                       {% else %}
-                        {{ words | divided_by:180 }} min read
+                        {% assign words = post.content | number_of_words %}
+                        {% if words < 360 %}
+                          1 min read
+                        {% else %}
+                          {{ words | divided_by:180 }} min read
+                        {% endif %}
                       {% endif %}
                     </span>
                     <time class="article__date"
